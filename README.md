@@ -9,7 +9,8 @@ When you click a card for the first time, the timer will start counting.
 When you open all the cards, the timer will stop.
 
 ## Screenshots
-![屏幕截图 2022-05-30 120333](https://user-images.githubusercontent.com/106433383/170915370-c8352be3-3519-494d-817e-b9558ecb2646.png)
-![屏幕截图 2022-05-30 120536](https://user-images.githubusercontent.com/106433383/170915390-f6d47f8b-4fe6-4263-98be-fdd45b92265e.png)
-![屏幕截图 2022-05-30 120550](https://user-images.githubusercontent.com/106433383/170915401-23c38889-1dd5-41a3-9074-38070066ab38.png)
+
+![屏幕截图 2022-05-31 081341](https://user-images.githubusercontent.com/106433383/171070250-b942553e-49e4-4ed9-9a4c-afa61d0d738a.png)
+![屏幕截图 2022-05-31 081427](https://user-images.githubusercontent.com/106433383/171070255-d564e018-3eb2-40bf-b8b6-be5258a3a552.png)
+![屏幕截图 2022-05-31 081447](https://user-images.githubusercontent.com/106433383/171070259-48a74073-31e5-431b-a180-588986d00ce9.png)
 
