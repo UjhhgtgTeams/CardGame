@@ -4,13 +4,14 @@
 ## Form generated from reading UI file 'cards.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
+## Manually edited by user
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtWidgets import *
 
 
 class Ui_Cards(object):
@@ -125,4 +126,3 @@ class Ui_Cards(object):
         self.pbtn07.setText(QCoreApplication.translate("Cards", u"PushButton", None))
         self.pbtn04.setText(QCoreApplication.translate("Cards", u"PushButton", None))
     # retranslateUi
-
