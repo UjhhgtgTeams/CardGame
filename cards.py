@@ -1,7 +1,7 @@
 import sys
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtWidgets import *
 from ui_cards import Ui_Cards
 
 
@@ -32,7 +32,7 @@ class MyCards(QMainWindow, Ui_Cards):
         pbtn_list = self.pbtn_img.buttons()
         for btn in pbtn_list:
             btn.setText("")
-            btn.setIcon(QIcon("bg.png"))
+            btn.setIcon(QIcon("./images/问号.png"))
             btn.setIconSize(QSize(150, 150))
             btn.setCheckable(True)
 
@@ -75,8 +75,8 @@ class MyCards(QMainWindow, Ui_Cards):
         if self.clicked_num == 2:
             self.clicked_num = 0
             if self.match_img[1]["pbtn_img"] != self.match_img[2]["pbtn_img"]:
-                self.match_img[1]["pbtn"].setIcon(QIcon("bg.png"))
-                self.match_img[2]["pbtn"].setIcon(QIcon("bg.png"))
+                self.match_img[1]["pbtn"].setIcon(QIcon("./images/问号.png"))
+                self.match_img[2]["pbtn"].setIcon(QIcon("./images/问号.png"))
             else:
                 self.right_count+=1
                 if self.right_count==6:
@@ -91,4 +91,4 @@ class MyCards(QMainWindow, Ui_Cards):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MyCards()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
